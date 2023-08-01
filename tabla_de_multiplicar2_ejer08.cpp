@@ -38,6 +38,8 @@ Tabla del 3
 
 using namespace std;
 
+//La idea era crear una primera función que imprima una sola tabla, y luego otra función que utilizando un bucle llame a la primera función 
+
 void imprimirTablasMultiplicar(int N) {
     for (int i = 1; i <= N; i++) {
         cout << "Tabla del " << i << endl;
