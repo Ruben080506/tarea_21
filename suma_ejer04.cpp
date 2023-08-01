@@ -9,6 +9,24 @@ sumatoria(9,4) hace la suma de : 9+8+7+6+5+4
 #include <iostream>
 
 using namespace std;
+//se puede optimizar para utilizar un único for
+    /*
+    int sumatoria(int num1, num2)
+    {
+     int aux=0;
+     int inicio=num1, fin=num2;
+     if(num1 > num2)
+        {
+            inicio=num2;
+            fin=num1;
+        }
+         for (int i = inicio; i <= fin; i++) 
+        {
+            aux += i;
+        }
+        return aux;
+    }
+        */
 
 int sumatoria(int inicio, int fin) {
     int suma = 0;
